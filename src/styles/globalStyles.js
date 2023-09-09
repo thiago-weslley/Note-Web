@@ -14,6 +14,10 @@ export const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  ::selection {
+    background: ${({ theme }) => theme.colors.red};
+  }
+
   a,
   button {
     cursor: pointer;
