@@ -28,4 +28,12 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.colors.background_700};
     color: ${({ theme }) => theme.colors.white_100};
   }
+
+  body, 
+  input,
+  button,
+  textarea {
+    font-family: 'Oxygen', sans-serif;
+    text-shadow: 1px 1px 4px ${({ theme }) => theme.colors.black};
+  }
 `;

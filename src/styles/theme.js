@@ -12,5 +12,7 @@ export const theme = {
     orange: "#FF9000",
 
     red: "#DC143C",
+
+    black: "#000000",
   },
 };
