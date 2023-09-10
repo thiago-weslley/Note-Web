@@ -1,12 +1,11 @@
-import { Button } from "../../components/button";
 import { Container } from "./styles";
+import { Header } from "../../components/Header";
+import { Button } from "../../components/button";
 
 export function Details() {
   return (
     <Container>
-      <h1>Em construção...</h1>
-      <Button content="Entrar" />
-      <Button content="Cadastrar" />
+      <Header />
       <Button content="Voltar" />
     </Container>
   );

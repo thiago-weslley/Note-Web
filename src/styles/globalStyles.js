@@ -24,7 +24,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.background_700};
+    background: ${({ theme }) => theme.colors.background_800};
     color: ${({ theme }) => theme.colors.white_100};
   }
 
