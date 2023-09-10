@@ -24,7 +24,6 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-size: 1.6rem;
     background: ${({ theme }) => theme.colors.background_700};
     color: ${({ theme }) => theme.colors.white_100};
   }
@@ -33,7 +32,9 @@ export const GlobalStyles = createGlobalStyle`
   input,
   button,
   textarea {
+    border: none;
+    font-size: 1.6rem;
     font-family: 'Oxygen', sans-serif;
-    text-shadow: 1px 1px 4px ${({ theme }) => theme.colors.black};
+    text-shadow: 1px 0px 2px ${({ theme }) => theme.colors.black};
   }
 `;

@@ -9,7 +9,7 @@ export const theme = {
 
     white_100: "#FFFAF0",
 
-    orange: "#FF9000",
+    orange: "#fa6400",
 
     red: "#DC143C",
 
