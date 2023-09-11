@@ -2,8 +2,8 @@ import { styled } from "styled-components";
 
 export const DefaultButton = styled.button`
   width: 100%;
-  min-height: 6rem;
-  margin-top: 1.6rem;
+  min-height: 5rem;
+  margin-top: 2rem;
 
   background-color: ${({ theme }) => theme.colors.orange};
   color: ${({ theme }) => theme.colors.background_700};
@@ -20,8 +20,7 @@ export const DefaultButton = styled.button`
 
   transition: all 250ms;
 
-  &:hover,
-  &:focus {
+  &:hover {
     background-color: #fb8332;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
