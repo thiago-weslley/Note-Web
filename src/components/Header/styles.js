@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  background-color: #161b22;
+  background-color: ${({ theme }) => theme.colors.background_900};
   border-bottom: 2px solid ${({ theme }) => theme.colors.background_600};
 
   @media screen and (max-width: 490px) {

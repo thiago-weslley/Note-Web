@@ -9,3 +9,13 @@ export const Container = styled.div`
     "header"
     "content";
 `;
+
+export const Link = styled.ul`
+  > li {
+    margin-top: 1rem;
+
+    a {
+      color: ${({ theme }) => theme.colors.white_100};
+    }
+  }
+`;

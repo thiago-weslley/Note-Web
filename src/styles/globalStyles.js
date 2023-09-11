@@ -10,12 +10,14 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased;
   }
 
   ::selection {
-    background: ${({ theme }) => theme.colors.red};
+    background: ${({ theme }) => theme.colors.orange};
+    color: ${({ theme }) => theme.colors.white_100};
   }
 
   a,

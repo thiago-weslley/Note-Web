@@ -27,7 +27,7 @@ export const DefaultButton = styled.button`
   }
 
   &:hover {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
 
   &:active {
