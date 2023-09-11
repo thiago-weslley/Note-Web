@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
 
   height: 10rem;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 5.5rem;
 
   display: flex;
   justify-content: space-between;
@@ -13,6 +13,10 @@ export const HeaderContainer = styled.header`
 
   background-color: #161b22;
   border-bottom: 2px solid ${({ theme }) => theme.colors.background_600};
+
+  @media screen and (max-width: 490px) {
+    padding: 0 1.4rem;
+  }
 `;
 
 export const Profile = styled.div`
@@ -34,6 +38,22 @@ export const Profile = styled.div`
 
     span {
       color: ${({ theme }) => theme.colors.gray_100};
+    }
+  }
+`;
+
+export const Logout = styled.button`
+  background: none;
+  display: flex;
+  align-items: center;
+
+  > svg {
+    color: ${({ theme }) => theme.colors.gray_100};
+    font-size: 2.6rem;
+    transition: all 0.2s;
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.orange};
     }
   }
 `;
