@@ -35,7 +35,7 @@ export const Brand = styled.div`
 export const Menu = styled.ul`
   grid-area: menu;
 
-  padding: 6rem 1rem 0 1rem;
+  padding: 5rem 1rem 0 1rem;
 
   text-align: center;
 
@@ -49,6 +49,8 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
   grid-area: search;
+
+  padding: 5rem 4rem 0;
 `;
 
 export const Content = styled.div`
