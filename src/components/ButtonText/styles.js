@@ -2,5 +2,6 @@ import { styled } from "styled-components";
 
 export const ButtonContainer = styled.button`
   background: none;
-  color: ${({ theme }) => theme.colors.orange};
+  color: ${({ theme, isActive }) =>
+    isActive ? theme.colors.orange : theme.colors.white_100};
 `;

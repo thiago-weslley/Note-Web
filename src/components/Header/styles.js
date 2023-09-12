@@ -3,11 +3,9 @@ import { styled } from "styled-components";
 export const HeaderContainer = styled.header`
   grid-area: header;
 
-  position: fixed;
-
-  height: 9rem;
+  height: 100%;
   width: 100%;
-  padding: 0 5.5rem;
+  padding: 0 3rem;
 
   display: flex;
   justify-content: space-between;
@@ -27,8 +25,8 @@ export const Profile = styled.div`
   gap: 1rem;
 
   img {
-    width: 6rem;
-    height: 6rem;
+    width: 5.2rem;
+    height: 5.2rem;
     border-radius: 50%;
     user-select: none;
   }
@@ -37,6 +35,7 @@ export const Profile = styled.div`
     display: flex;
     flex-direction: column;
     line-height: 2.2rem;
+    font-size: 1.4rem;
 
     span {
       color: ${({ theme }) => theme.colors.gray_100};
