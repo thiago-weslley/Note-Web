@@ -6,7 +6,7 @@ export const InputContainer = styled.div`
   align-items: center;
   border-radius: 10px;
   background: ${({ theme }) => theme.colors.background_600};
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 
   > input {
     width: 100%;

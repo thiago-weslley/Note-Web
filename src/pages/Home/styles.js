@@ -29,7 +29,7 @@ export const Brand = styled.div`
     font-size: 3rem;
   }
 
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 `;
 
 export const Menu = styled.ul`
@@ -40,7 +40,7 @@ export const Menu = styled.ul`
   text-align: center;
 
   background: ${({ theme }) => theme.colors.background_700};
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 
   > li {
     margin-bottom: 3rem;
@@ -50,11 +50,13 @@ export const Menu = styled.ul`
 export const Search = styled.div`
   grid-area: search;
 
-  padding: 5rem 4rem 0;
+  padding: 5rem 3rem 0;
 `;
 
 export const Content = styled.div`
   grid-area: content;
+
+  padding: 0 3rem;
 `;
 
 export const NewNote = styled.button`
@@ -68,7 +70,7 @@ export const NewNote = styled.button`
   font-size: 1.8rem;
 
   background: ${({ theme }) => theme.colors.orange};
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 
   &:hover {
     background-color: #fb8332;
