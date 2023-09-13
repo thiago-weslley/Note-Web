@@ -8,7 +8,7 @@ export const DefaultButton = styled.button`
   background-color: ${({ theme }) => theme.colors.orange};
   color: ${({ theme }) => theme.colors.background_700};
 
-  border-radius: 0.6rem;
+  border-radius: 10px;
 
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
   font-weight: 700;
