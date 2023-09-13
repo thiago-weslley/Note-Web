@@ -8,6 +8,10 @@ export const InputContainer = styled.div`
   background: ${({ theme }) => theme.colors.background_600};
   box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 
+  &:focus-within {
+    outline: 1px solid ${({ theme }) => theme.colors.white_100};
+  }
+
   > input {
     width: 100%;
     height: 5.6rem;
