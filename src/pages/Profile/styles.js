@@ -59,6 +59,20 @@ export const Avatar = styled.div`
       font-size: 2rem;
     }
   }
+
+  @media screen and (max-width: 450px) {
+    margin-bottom: 2rem;
+
+    > img {
+      width: 14rem;
+      height: 14rem;
+    }
+
+    > label {
+      bottom: 45px;
+      right: 18px;
+    }
+  }
 `;
 
 export const Form = styled.form`
