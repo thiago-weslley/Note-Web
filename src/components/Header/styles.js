@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.header`
   grid-area: header;
@@ -23,13 +24,7 @@ export const Profile = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
-
-  img {
-    width: 5.2rem;
-    height: 5.2rem;
-    border-radius: 50%;
-    user-select: none;
-  }
+  color: ${({ theme }) => theme.colors.white_100};
 
   > div {
     display: flex;
@@ -40,6 +35,15 @@ export const Profile = styled.div`
     span {
       color: ${({ theme }) => theme.colors.gray_100};
     }
+  }
+`;
+
+export const Image = styled(Link)`
+  img {
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 50%;
+    user-select: none;
   }
 `;
 

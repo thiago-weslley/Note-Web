@@ -1,5 +1,7 @@
 import { FiMail, FiLock } from "react-icons/fi";
 
+import { Link } from "react-router-dom";
+
 import { SignInContainer, Form } from "./styles";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
@@ -21,7 +23,7 @@ export function SignIn() {
 
         <Button content="Entrar" />
 
-        <a href="#">Cadastre-se</a>
+        <Link to="/cadastro">Cadastre-se</Link>
       </Form>
     </SignInContainer>
   );
